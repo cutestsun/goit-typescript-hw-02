@@ -2,10 +2,16 @@
   "name": "typescript-homework-module-2",
   "version": "1.0.0",
   "description": "",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.1.5"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.1"
   }
 }
